@@ -1,10 +1,11 @@
 let firebaseConfig = {
-    apiKey: "AIzaSyD0wO4x1fTAYfYQsDqWYNEXygj5m8GGv4Y",
-    authDomain: "blogging-website-56e03.firebaseapp.com",
-    projectId: "blogging-website-56e03",
-    storageBucket: "blogging-website-56e03.appspot.com",
-    messagingSenderId: "56923943899",
-    appId: "1:56923943899:web:7ce2d65681dcf738916dfe"
+    //you can get the following details through firbase console
+    apiKey: "your api key",
+    authDomain: "your authDomain",
+    projectId: "your projectId",
+    storageBucket: "your storage bucket",
+    messagingSenderId: "your messagingsenderId",
+    appId: "your appId"
 };
 
 firebase.initializeApp(firebaseConfig);
